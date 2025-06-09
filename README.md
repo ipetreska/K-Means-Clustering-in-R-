@@ -26,4 +26,4 @@ fviz_silhouette(sil3)
 sil4 <- silhouette(km4$cluster, dist(your_data))
 fviz_silhouette(sil4)
 
-# NOTE: If you also ran K = 3, compare its silhouette width — if it’s lower than 0.56 or has more overlap, K = 4 is the better choice. 
+# NOTE: If you also ran K = 3, compare its silhouette width, if it’s lower than 0.56 or has more overlap, K = 4 is the better choice. 
